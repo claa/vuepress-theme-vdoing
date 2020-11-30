@@ -23,6 +23,7 @@ git init
 git add .
 git commit -m 'deploy'
 git remote add origin https://claa:15735659458zxc@gitee.com/claa/vuepress-theme-vdoing.git
+git push -u origin master -f
 git push -u origin master
 
 #git push -f git@gitee.com:claa/vuepress-theme-vdoing.git master:gh-pages
