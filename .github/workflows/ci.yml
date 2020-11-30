@@ -25,7 +25,6 @@ jobs: # 工作流
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }} # toKen私密变量
         run: npm install && npm run deploy # 执行的命令  
         # package.json 中添加 "deploy": "bash deploy.sh"
-		
       - name: Build Gitee Pages
         uses: yanglbme/gitee-pages-action@main
         with:
