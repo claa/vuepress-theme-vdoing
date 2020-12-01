@@ -50,7 +50,7 @@ jobs: # 工作流
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }} # toKen私密变量
         run: npm install && npm run deploy # 执行的命令  
         # package.json 中添加 "deploy": "bash deploy.sh"
-      - name: Build Gitee Pages
+       - name: Build Gitee Pages
         uses: yanglbme/gitee-pages-action@main
         with:
           # 注意替换为你的 Gitee 用户名
@@ -60,7 +60,7 @@ jobs: # 工作流
           # 注意替换为你的 Gitee 仓库，仓库名严格区分大小写，请准确填写，否则会出错
           gitee-repo: vuepress-theme-vdoing
           # 要部署的分支，默认是 master，若是其他分支，则需要指定（指定的分支必须存在）
-          branch: main
+          branch: master
 
 ```
 
@@ -92,6 +92,7 @@ git init
 git add .
 git commit -m 'deploy'
 git remote add origin https://[用户名]:[密码]@gitee.com/claa/vuepress-theme-vdoing.git
+git push -u origin master -f
 git push -u origin master
 
 #git push -f git@gitee.com:claa/vuepress-theme-vdoing.git master:gh-pages
