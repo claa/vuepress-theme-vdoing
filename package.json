@@ -9,8 +9,7 @@
     "baiduPush": "node utils/baiduPush.js https://xugaoyi.com && bash baiduPush.sh",
     "publish": "cd theme-vdoing && npm publish && cd ../ && npm update vuepress-theme-vdoing",
     "docs:build": "vuepress build docs",
-    "fix-memory-limit": "cross-env LIMIT=2048 increase-memory-limit"，
-	"prod": "node --max-old-space-size=100000000 node_modules\\@angular\\cli\\bin\\ng build --prod "
+    "fix-memory-limit": "cross-env LIMIT=2048 increase-memory-limit"
   },
   "license": "MIT",
   "devDependencies": {

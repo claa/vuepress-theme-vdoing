@@ -1,3 +1,13 @@
+---
+title: Github上mall开源项目的学习
+date: 2020-12-02 19:56:55
+permalink: /pages/56c077/
+categories:
+  - Java后端
+  - 开源项目学习
+tags:
+  - 
+---
 # Github上开源电商系统mall 的学习
 
 ## 前言

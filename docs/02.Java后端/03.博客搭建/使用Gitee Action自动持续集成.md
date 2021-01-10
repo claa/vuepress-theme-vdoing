@@ -1,3 +1,13 @@
+---
+title: 使用Gitee Action自动持续集成
+date: 2020-11-28 21:58:06
+permalink: /pages/df866e/
+categories:
+  - Java后端
+  - 博客搭建
+tags:
+  - 
+---
 #  使用Gitee Action自动持续集成
 
 ## 背景
