@@ -1,3 +1,13 @@
+---
+title: node内存泄漏
+date: 2021-01-13 21:01:05
+permalink: /pages/ea4df0/
+categories:
+  - 前端
+  - 前端BUG
+tags:
+  - 
+---
 # Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory
 
 ## 问题场景
